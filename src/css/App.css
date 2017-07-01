@@ -1,0 +1,35 @@
+body{
+  margin: 0;
+}
+
+*{
+  /* create-react-app 会自动加上厂商前缀*/
+  box-sizing: border-box;
+}
+
+.app{
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+
+}
+.app > .main-wrap{
+  border : 1px solid green;
+  flex-grow: 1;
+  overflow-y: scroll;
+  
+}
+
+.app > .header-wrap{
+  border : 1px solid green;
+  height: 80px;
+  /*  不要萎缩*/
+  flex-shrink: 0;
+}
+
+.app > .footer-wrap{
+  border : 1px solid green;
+  height: 80px;
+  /*  不要萎缩 */
+  flex-shrink: 0;
+}
