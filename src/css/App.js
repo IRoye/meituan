@@ -14,7 +14,6 @@ export default StyleSheet.create({
     'flexDirection': 'column'
   },
   'app > main-wrap': {
-    'border': [{ 'unit': 'px', 'value': 1 }, { 'unit': 'string', 'value': 'solid' }, { 'unit': 'string', 'value': 'green' }],
     'flexGrow': '1',
     'overflowY': 'scroll'
   },
@@ -25,8 +24,7 @@ export default StyleSheet.create({
     'flexShrink': '0'
   },
   'app > footer-wrap': {
-    'border': [{ 'unit': 'px', 'value': 1 }, { 'unit': 'string', 'value': 'solid' }, { 'unit': 'string', 'value': 'green' }],
-    'height': [{ 'unit': 'px', 'value': 80 }],
+    'height': [{ 'unit': 'px', 'value': 50 }],
     // 不要萎缩
     'flexShrink': '0'
   }

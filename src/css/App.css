@@ -14,7 +14,6 @@ body{
 
 }
 .app > .main-wrap{
-  border : 1px solid green;
   flex-grow: 1;
   overflow-y: scroll;
   
@@ -28,8 +27,7 @@ body{
 }
 
 .app > .footer-wrap{
-  border : 1px solid green;
-  height: 80px;
+  height: 50px;
   /*  不要萎缩 */
   flex-shrink: 0;
 }
