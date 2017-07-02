@@ -5,8 +5,7 @@ import Faq from './Faq';
 
  import {
    BrowserRouter as Router,
-   Route,
-   Link
+   Route
  } from 'react-router-dom'
 
 
