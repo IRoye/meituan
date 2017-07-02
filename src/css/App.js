@@ -25,8 +25,8 @@ export default StyleSheet.create({
     'overflowY': 'scroll'
   },
   'app > header-wrap': {
-    'border': [{ 'unit': 'px', 'value': 1 }, { 'unit': 'string', 'value': 'solid' }, { 'unit': 'string', 'value': 'green' }],
-    'height': [{ 'unit': 'px', 'value': 80 }],
+    'display': 'flex',
+    'height': [{ 'unit': 'px', 'value': 50 }],
     // 不要萎缩
     'flexShrink': '0'
   },
@@ -34,5 +34,8 @@ export default StyleSheet.create({
     'height': [{ 'unit': 'px', 'value': 50 }],
     // 不要萎缩
     'flexShrink': '0'
+  },
+  'a': {
+    'WebkitTapHighlightColor': 'rgba(0,0,0,0)'
   }
 });

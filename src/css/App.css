@@ -22,8 +22,8 @@ body, html{
 }
 
 .app > .header-wrap{
-  border : 1px solid green;
-  height: 80px;
+  display: flex;
+  height: 50px;
   /*  不要萎缩*/
   flex-shrink: 0;
 }
@@ -32,4 +32,8 @@ body, html{
   height: 50px;
   /*  不要萎缩 */
   flex-shrink: 0;
+}
+
+a {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
 }

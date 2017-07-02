@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 //import {BroswerRouter as Router, Route, Switch , Link} from 'react-router-dom';
-import About from './About';
-import Faq from './Faq';
+import Order from './Order';
+import Mine from './Mine';
 
  import {
    BrowserRouter as Router,
@@ -17,8 +17,8 @@ export default class Main extends Component {
             <Router>
                 <div>
                     <Route exat path='/' component={Home} />
-                    <Route path='/about' component={About} />
-                    <Route path='/faq' component={Faq} />
+                    <Route path='/order' component={Order} />
+                    <Route path='/mine' component={Mine} />
                 </div>
             </Router>
         );
