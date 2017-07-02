@@ -1,4 +1,36 @@
 .footer{
     height: 100%;
     border-top: 1px solid #b2b2b2;
+    display: flex;
+}
+.footer > .item{
+    flex-grow: 1;
+}
+
+.footer > .item > a > div{
+    display: inline-block;
+    margin: 2px auto;
+}
+
+.footer > .item {
+    display: block;
+    text-align: center;
+}
+/*  
+这个地方是个大大的疑问；
+*/
+.footer > .item div{
+    font-size: 11px ;
+    line-height: 11px;
+}
+
+.footer > .item div{
+    margin-bottom: 0;
+}
+.footer > .item a{
+    display: block;
+    text-decoration: none;
+    /* 为什么宽度和高度都是  100% */
+    width: 100%;
+    height: 100%;
 }
