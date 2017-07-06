@@ -1,0 +1,78 @@
+.nav-items-row > a{
+    width: 25%;
+    flex-grow: 1;
+}
+.nav-items-row{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.nav-items-row   svg{
+    width: 25px;
+    height: 25px;
+    fill: white;
+}
+.nav-items-row  .icon{
+    margin:0 auto;
+    width: 45px;
+    height: 45px;
+      border-radius: 50%;
+       margin-top: 10px;
+       align-items: center;
+}
+
+.nav-items-row .snack .icon{
+  background-color: #78B0FF;
+  display: flex;
+  justify-content: center;
+}
+.nav-items-row .diner .icon{
+  background-color:#fb7071;
+  display: flex;
+  justify-content: center;
+}
+.nav-items-row .dinner .icon{
+  background-color: #9ade55;
+  display: flex;
+  justify-content: center;
+}
+.nav-items-row .express .icon{
+  background-color: #f378da;
+  display: flex;
+  justify-content: center;
+}
+.nav-items-row .fruit .icon{
+  background-color: #ffaf48;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-items-row .nosh .icon{
+  background-color: #ffce56;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-items-row .wine .icon{
+  background-color: #ffaf48;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-items-row .westernFood .icon{
+  background-color: #60d5e2;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-items-row .shop .icon{
+  background-color: #78B0FF;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-items-row . .icon{
+  background-color: #78B0FF;
+  display: flex;
+  justify-content: center;
+}

@@ -1,10 +1,14 @@
 import React,{Component} from 'react';
-
+import {Snack} from './Icons';
+import {BroswerRouter as Router, Route, Switch , Link} from 'react-router-dom';
+import HomeCats from './HomeCats/HomeCats';
+//  样式
 export default class Home extends Component {
 
     render() {
         return (
             <div className="home">
+                <HomeCats />
                 <p>
                     Sass 有两种语法格式。首先是 SCSS (Sassy CSS) —— 也是本文示例所使用的格式 —— 这种格式仅在 CSS3 语法的基础上进行拓展，所有 CSS3 语法在 SCSS 中都是通用的，同时加入 Sass 的特色功能。此外，SCSS 也支持大多数 CSS hacks 写法以及浏览器前缀写法 (vendor-specific syntax)，以及早期的 IE 滤镜写法。这种格式以 .scss 作为拓展名。
 
