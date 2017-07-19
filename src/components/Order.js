@@ -1,12 +1,14 @@
 import React,{Component} from 'react';
-
-export default class Order extends Component {
+import { withRouter} from 'react-router-dom';
+ class Order extends Component {
 
     render() {
         return (
             <div className="class-name">
-                content
+                order
             </div>
         );
     }
 }
+
+export default withRouter(Order);

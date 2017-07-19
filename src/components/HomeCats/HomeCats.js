@@ -14,12 +14,32 @@ import {BroswerRouter as Router, Route, Switch, Link} from 'react-router-dom';
 
 export default class HomeCats extends Component {
     
+    //  在最外层注册事件
+    handleTouchStart = (e) => {
+        // 在用户的手指触摸屏幕的瞬间触发；
+        console.log('touchStart');
+        //alert('touchStart');
+    }
+
+    handleTouchMove = (e) => {
+        // 在用户移动手指的过程中连续触发
+        console.log('touchMove');
+    }
+
+    handleTouchEnd = (e) => {
+        // 在用户的手指离开屏幕瞬间触发
+        console.log('touchEnd');
+    }
+
     render() {
         return (
-            <div className="nav">
+            <div className="nav" onTouchStart={
+                this.handleTouchStart.bind(this)}
+                onTouchEnd = {this.handleTouchEnd.bind(this)}
+                onTouchMove = {this.handleTouchMove.bind(this)}>
             <div className='nav-items-row'>
                 <Link to='/'>
-                    <SnackIcon />
+                    <SnackIcon/>
                 </Link>
                 <Link to='/'>
                     <ShopIcon/>

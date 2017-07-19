@@ -3,8 +3,7 @@ import {Snack} from './Icons';
 import {BroswerRouter as Router, Route, Switch , Link} from 'react-router-dom';
 import HomeCats from './HomeCats/HomeCats';
 //  样式
-export default class Home extends Component {
-
+class Home extends Component {
     render() {
         return (
             <div className="home">
@@ -20,3 +19,4 @@ export default class Home extends Component {
         );
     }
 }
+export default Home;

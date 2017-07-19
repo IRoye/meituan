@@ -1,15 +1,14 @@
-import React,{Component} from 'react';
-import { withRouter, Link } from 'react-router-dom';
+//  滑动手势模块
 
- class Mine extends Component {
+import React,{Component} from 'react';
+
+export default class Swipe extends Component {
 
     render() {
         return (
             <div className="class-name">
-                mine
+                swipe
             </div>
         );
     }
 }
-
-export default withRouter(Mine);
