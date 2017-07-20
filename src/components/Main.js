@@ -4,12 +4,9 @@ import React, {Component} from 'react';
 import Order from './Order';
 import Mine from './Mine';
 
-import {BrowserRouter as Router, Route, Link, withRouter} from 'react-router-dom'
-
+import {BrowserRouter as Router, Route, Link, withRouter} from 'react-router-dom';
 import Home from './Home';  
-
 class Main extends Component {
-
     render() {
         return (
                 <div>
@@ -20,4 +17,4 @@ class Main extends Component {
         );
     }
 }
-export default withRouter(Main);
+export default Main;

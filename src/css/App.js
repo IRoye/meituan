@@ -37,5 +37,30 @@ export default StyleSheet.create({
   },
   'a': {
     'WebkitTapHighlightColor': 'rgba(0,0,0,0)'
-  }
+  },
+  'slider-wrap': {
+    'height': [{ 'unit': 'px', 'value': 100 }],
+    'position': 'relative',
+    'overflow': 'hidden'
+  },
+  '#slider': {
+    'position': 'absolute',
+    'display': 'flex',
+    'top': [{ 'unit': 'px', 'value': 0 }],
+    'left': [{ 'unit': 'px', 'value': 0 }]
+  },
+  '#slider slide': {
+    'flexShrink': '0',
+    'verticalAlign': 'center',
+    'height': [{ 'unit': 'px', 'value': 100 }],
+    'lineHeight': [{ 'unit': 'px', 'value': 100 }],
+    'backgroundColor': '#d3d3d3',
+    'textAlign': 'center',
+    'fontSize': [{ 'unit': 'px', 'value': 20 }],
+    'border': [{ 'unit': 'px', 'value': 2 }, { 'unit': 'string', 'value': 'solid' }, { 'unit': 'string', 'value': 'white' }],
+    // 暂时设置为这个像素值
+    'width': [{ 'unit': 'px', 'value': 320 }],
+    // 目前使用的是border-box
+  },
+  // 需要在活动的最外层再包裹一层元素
 });

@@ -37,3 +37,32 @@ body, html{
 a {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
+
+.slider-wrap{
+height: 100px;
+position: relative;
+overflow: hidden;
+}
+
+#slider{
+  position: absolute;
+  display: flex;
+  top: 0;
+  left: 0;
+}
+
+#slider .slide{
+  flex-shrink: 0;
+  vertical-align: center;
+  height: 100px;
+  line-height: 100px; 
+  background-color: #d3d3d3;
+  text-align: center;
+  font-size: 20px;
+   border: 2px solid white; 
+  /* 暂时设置为这个像素值  */
+   width: 320px; 
+  /*   目前使用的是border-box  */
+}
+
+/*  需要在活动的最外层再包裹一层元素  */

@@ -27,12 +27,12 @@ const Footer = (props) => {
                     </Link>
                     </div>
                     <div className='item'>
-                        <Link to='/about'>
+                        <Link to='/mine'>
                     <UserIcon
                         style={{
                         width: '30px',
                         height: '30px'
-                    }} active={props.location.pathname === '/about'}/>
+                    }} active={props.location.pathname === '/mine'}/>
                     </Link>
                     </div>
                 </div>
